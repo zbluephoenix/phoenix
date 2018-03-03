@@ -2,7 +2,7 @@
 title: 留言板
 date: 2016-07-02 20:39:21
 ---
-<center>![](http://www.zbluephoenix.cn/img_text/zbluephoenix.png)<center>
+<center>![](http://o9pu9elcp.bkt.clouddn.com/blogzbluephoenix2.png)<center>
 <center><font color=orange size=5>这个博客的存在，只是因为我的兴趣</font><center>
 
 <center><font color=orange size=4>以后会在这里更新有关iOS方向的文章</font><center>

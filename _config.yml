@@ -69,5 +69,7 @@ theme: yelee
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/zbluephoenix/zbluephoenix.github.io.git
-  branch: master
+  repo: 
+        github: git@github.com:zbluephoenix/zbluephoenix.github.io.git,master
+        coding: git@git.coding.net:ZBluePhoenix/ZBluePhoenix.git,master
+#        oschina: git@git.oschina.net:zbluephoenix/zbluephoenix.git,master
