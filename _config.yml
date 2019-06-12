@@ -71,5 +71,5 @@ deploy:
   type: git
   repo: 
         github: git@github.com:zbluephoenix/zbluephoenix.github.io.git,master
-        coding: git@git.coding.net:ZBluePhoenix/ZBluePhoenix.git,master
-#        oschina: git@git.oschina.net:zbluephoenix/zbluephoenix.git,master
+        # coding: git@git.coding.net:ZBluePhoenix/ZBluePhoenix.git,master
+        # oschina: git@git.oschina.net:zbluephoenix/zbluephoenix.git,master
