@@ -97,14 +97,14 @@ duoshuo:
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 youyan:
-#  on: true
+  # on: true
   id: 2158505
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
 
 gitment:
-  on: true
+  # on: true
   # 配置文件在这里没会设置直接设置在文件里了"/themes/yelee/layout/_partial/comments/gitment.ejs"
 
 # >>> Style Customisation 样式自定义 <<<
@@ -113,14 +113,14 @@ gitment:
 ## "5": show images form bg-1.jpg to bg-5.jpg in `/yelee/source/background/`
 ## "5": 显示`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片
 ## "0": white-gray background | 淳朴灰白背景
-background_image: 1
+background_image: 0
 
 # Base Font Size | 字号调节
 base_font_size: 16  #px, 16 - 24
 
 ## General Color Scheme | 主题配色方案 
 ## 可用值 Value: yilia
-color_scheme: 
+color_scheme: yilia
 
 highlight_style:
   on: true
@@ -174,13 +174,12 @@ tagcloud: true
 friends:
   Hexo: https://hexo.io
   GitHub: https://pages.github.com/
-  LLemonGreen: http://llemongreen.cn/
   MOxFIVE: http://moxfive.xyz/
   #friends: false
 
 #是否开启“关于我”。
-aboutme: IT界的小学生
-#aboutme: false
+#aboutme: IT界的小学生
+aboutme: false
 
 # 是否在新窗口打开链接
 # Open ALL link in a new tab
@@ -221,8 +220,8 @@ mathjax: false
 
 # Socail Share | 是否开启分享
 share: 
-  on: true
-  baidu: true
+  on: false
+  baidu: false
   addthis: false
   addthis_pubid: "ra-56ff76c972fc0cf9"
   ## Go to www.addthis.com/dashboard to get your pubid (in src of Code)

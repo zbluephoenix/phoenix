@@ -7,7 +7,7 @@ title: ZBluePhoenix
 subtitle: 蓝色妖凰
 description:
 author: ZBluePhoenix
-language: zh-Hans
+language: zh-CN
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yelee
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
