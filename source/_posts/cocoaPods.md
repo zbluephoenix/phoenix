@@ -99,4 +99,4 @@ $ pod update
 > 在执行`pod install`命令或`pod update`时除了会在工程内安装和更新第三方，还有可能会更新本地库文件，所以为了提升下载速度，可以用`pod install --no-repo-update`或`pod update --no-repo-update`命令代替以上两个命令
 
 ## 相关资料
-> [安装cocoaPods准备工作：安装／更新ruby环境教程](zbluephoenix.cn/2016/08/02/ruby/)
+> [安装cocoaPods准备工作：安装／更新ruby环境教程](https://zbluephoenix.cn/2016/08/02/ruby/)

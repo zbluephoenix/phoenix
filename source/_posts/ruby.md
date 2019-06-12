@@ -106,7 +106,7 @@ $ rvm list
 $ rvm remove 2.3
 ```
 ## 相关资料
-> [cocoaPods安装步骤与问题](zbluephoenix.cn/2016/08/02/cocoaPods/)
+> [cocoaPods安装步骤与问题](https://zbluephoenix.cn/2016/08/02/cocoaPods/)
 
 ## 参考资料
 > [cocoapods:安装/更新Ruby环境教程](http://blog.csdn.net/wangyanchang21/article/details/51885383)
