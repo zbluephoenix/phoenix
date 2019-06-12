@@ -1,7 +1,9 @@
 ---
 title: 安装cocoaPods准备工作：安装／更新ruby环境
 date: 2016-08-02 08:44:38
-category: iOS
+category: 
+- Software
+- iOS
 tags: 
 - ruby
 - rvm
@@ -29,7 +31,6 @@ ERROR:  Error installing cocoapods: activesupport requires Ruby version >= 2.2.2
 $ curl -L get.rvm.io | bash -s stable
 ```
 	
-![](http://o9pu9elcp.bkt.clouddn.com/bloginstallRvm.png)
 
 ### 加载文件测试是否正常安装（按提示操作）同时查看rvm版本
 
@@ -39,7 +40,6 @@ $ source ~/.bash_profile
 $ source ~/.profile
 $ rvm -v
 ```
-![](http://o9pu9elcp.bkt.clouddn.com/blogrvm_v.png)
 
 ### 我查到的资料在rvm -v之后提示如果有如下的错误，请reload rvm
 
@@ -52,7 +52,6 @@ Please do one of the following:
 * 'echo rvm_auto_reload_flag=2 >> ~/.rvmrc' # for silent auto reload.
 ```
 但是我并没有遇到此错误，直接显示为最后一行
-![](http://o9pu9elcp.bkt.clouddn.com/blogrvm_v.png)
   	
 > 至此rvm安装完成，现在要通过rvm对ruby进行升级
 
@@ -63,14 +62,12 @@ Please do one of the following:
 $ ruby -v   
 $ rvm list known
 ```
-![](http://o9pu9elcp.bkt.clouddn.com/blogruby_vandrvm_list.png)
 
 ### 选择一个高于2.2.2的版本进行安装，我这里安装的2.3
 	
 ```
 $ rvm install 2.3
 ```
-![](http://o9pu9elcp.bkt.clouddn.com/blogrvminstall2.3.png)
 	
 我查找的资料在这步介绍说可能有两种错误
 > 错误1: 在安装ruby的时候, 可能会如下报错
@@ -94,14 +91,12 @@ showing last 15 lines of /Users/acewill/.rvm/log/1468253599_ruby-2.3.0/package_i
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 以上两种错误我都没有遇到，我在安装的时候的确需要安装Homebrew，但是是在安装过程中直接提示我选择Homebrew的本地安装位置，我选择的是`/usr/local/Homebrew`然后在安装到`Updating system.....`这个步骤的时候，我第一次安装到这里失败了，后来我用VPN重新安装成功的。
-![](http://o9pu9elcp.bkt.clouddn.com/blogrvminstall2.3Homebrew.png)
 
 ### 安装rails
 
 ```
 $ gem install rails
 ```
-![](http://o9pu9elcp.bkt.clouddn.com/bloggeminstall.png)
 
 ### 卸载ruby方法 
 获取ruby已安装版本列表，然后卸载ruby
@@ -111,7 +106,7 @@ $ rvm list
 $ rvm remove 2.3
 ```
 ## 相关资料
-> [cocoaPods安装步骤与问题](http://www.zbluephoenix.cn/2016/08/02/cocoaPods/)
+> [cocoaPods安装步骤与问题](zbluephoenix.cn/2016/08/02/cocoaPods/)
 
 ## 参考资料
 > [cocoapods:安装/更新Ruby环境教程](http://blog.csdn.net/wangyanchang21/article/details/51885383)
