@@ -1,5 +1,5 @@
 ---
-title: Bug收集贴
+title: Bug收集贴(通用)
 date: 2019-06-12 23:44:29
 category:
 - Bug
