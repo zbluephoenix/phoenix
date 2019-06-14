@@ -98,3 +98,6 @@ $ swift -F ./ HelloWorld.swift
 1. -F 后最好拼接绝对路径
 2. 添加多个路径的方法是 e.g. `$ swift -F ./ -F ./Demo/ HelloWorld.swift` 
 
+### 引用库三方库注意事项
+
+1. 只能引用纯swift封装的framework (OC封装的不能执行) (2019年6月14日之前的发现，未来未知)
